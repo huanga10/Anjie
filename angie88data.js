@@ -8,7 +8,7 @@
       "name": "Eve Huang",
       "email": "eveisacat@gmail.com"
 
-    },
+    }
 
   ]
 }
