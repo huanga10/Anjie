@@ -11,21 +11,13 @@
         <thead>
             <tr>
                 <th>Name</th>
-                <th>Designation</th>
-                <th>Office</th>
-                <th>Extension</th>
-                <th>Joining Date</th>
-                <th>Salary</th>
+                <th>email</th>
             </tr>
         </thead>
         <tfoot>
             <tr>
                 <th>Name</th>
-                <th>Designation</th>
-                <th>Office</th>
-                <th>Extension</th>
-                <th>Joining Date</th>
-                <th>Salary</th>
+                <th>email</th>
             </tr>
         </tfoot>
     </table>
@@ -38,14 +30,10 @@
     <script type="text/javascript">
     $(document).ready(function() {
         $('#empTable').dataTable({
-            "ajax": "empdata.js",
+            "ajax": "angie88data.js",
             "columns": [
                 {"data": "name"},
-                {"data": "designation"},
-                {"data": "office"},
-                {"data": "extension"},
-                {"data": "joining_date"},
-                {"data": "salary"}
+                {"data": "email"}
             ]
         });   
     });
